@@ -1,0 +1,6 @@
+1.下载词典数据 git submodule init; git submodule update
+2.CrossLineWordDetector使用见test/test.py
+  测试数据来源：https://www.corpusdata.org/wiki/samples/text.zip
+3.在wiki数据中测试:
+    ACC : [0.9615] REC: [0.9515]
+    TP/FP/TN/FN : [9515][381][619][485]
